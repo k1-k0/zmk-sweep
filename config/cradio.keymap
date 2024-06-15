@@ -68,22 +68,22 @@
 
         combo_app_l {
             timeout-ms = <20>;
-            key-positions = <20 21>;
+            key-positions = <21 22>;
             bindings = <&kp K_APP>;
         };
         combo_bslh_l {
             timeout-ms = <20>;
-            key-positions = <21 22>;
+            key-positions = <22 23>;
             bindings = <&kp BSLH>;
         };
         combo_lbkt_r {
             timeout-ms = <20>;
-            key-positions = <25 26>;
+            key-positions = <26 27>;
             bindings = <&kp LBKT>;
         };
         combo_rbkt_r {
             timeout-ms = <20>;
-            key-positions = <26 27>;
+            key-positions = <27 28>;
             bindings = <&kp RBKT>;
         };
     };
@@ -97,7 +97,7 @@
             &kp Z      &kp X      &lt 1 C      &lt 2 V      &lt 3 B          &lt 3 N      &lt 2 M      &lt 1 COMMA  &kp DOT    &kp FSLH
                                             &lt 1 SPACE   &lt 2 ENTER     &lt 2 ESCAPE  &lt 1 BSPC
             >;
-        };
+        };]
 
         lower_layer {
             bindings = <
