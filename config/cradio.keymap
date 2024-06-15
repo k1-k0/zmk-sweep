@@ -106,11 +106,10 @@
                                             &lt 1 SPACE   &lt 2 ENTER     &lt 2 ESCAPE  &lt 1 BSPC
             >;
         };
-# caps word
 
         right_layer {
             bindings = <
-            &kp FSLH    &kp N7     &kp N8     &kp N9     &kp PLUS         &kp caps_word   &kp PG_UP  &kp UARW  &kp PG_DW    &kp INS
+            &kp FSLH    &kp N7     &kp N8     &kp N9     &kp PLUS         &caps_word   &kp PG_UP  &kp UARW  &kp PG_DW    &kp INS
             &ht LGUI KP_MULTIPLY &ht LALT N4 &ht LCTRL N5 &ht LSHFT N6 &kp MINUS &kp HOME &ht RSHFT LARW &ht RCTRL DARW   &ht RALT RARW   &ht RGUI END
             &kp N0  &kp N1     &kp N2     &kp N3     &kp EQUAL         &kp CAPS     &kp SQT     &kp K_APP &kp PSCRN     &kp DEL
                                              &trans     &kp TAB        &kp TAB     &trans
