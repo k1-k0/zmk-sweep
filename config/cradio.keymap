@@ -22,25 +22,25 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_grave_l {
+        combo_app_l {
             timeout-ms = <20>;
-            key-positions = <1 2>;
-            bindings = <&kp GRAVE>;
+            key-positions = <1 2>; 21 22
+            bindings = <&kp K_APP>;
         };
-        combo_tab_l {
+        combo_bslh_l {
             timeout-ms = <20>;
             key-positions = <2 3>;
-            bindings = <&kp TAB>;
+            bindings = <&kp BSLH>;
         };
-        combo_grave_r {
+        combo_lbkt_r {
             timeout-ms = <20>;
             key-positions = <7 8>;
-            bindings = <&kp GRAVE>;
+            bindings = <&kp LBKT>;
         };
-        combo_tab_r {
+        combo_rbkt_r {
             timeout-ms = <20>;
             key-positions = <6 7>;
-            bindings = <&kp TAB>;
+            bindings = <&kp RBKT>;
         };
 
         combo_caps_l {
@@ -64,25 +64,25 @@
             bindings = <&kp SQT>;
         };
 
-        combo_app_l {
+        combo_grave_l {
             timeout-ms = <20>;
             key-positions = <21 22>;
-            bindings = <&kp K_APP>;
+            bindings = <&kp GRAVE>;
         };
-        combo_bslh_l {
+        combo_tab_l {
             timeout-ms = <20>;
             key-positions = <22 23>;
-            bindings = <&kp BSLH>;
+            bindings = <&kp TAB>;
         };
-        combo_lbkt_r {
+        combo_grave_r {
             timeout-ms = <20>;
             key-positions = <26 27>;
-            bindings = <&kp LBKT>;
+            bindings = <&kp GRAVE>;
         };
-        combo_rbkt_r {
+        combo_tab_r {
             timeout-ms = <20>;
             key-positions = <27 28>;
-            bindings = <&kp RBKT>;
+            bindings = <&kp TAB>;
         };
     };
 
