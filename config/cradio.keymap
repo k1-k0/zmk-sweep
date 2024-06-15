@@ -24,7 +24,7 @@
         compatible = "zmk,combos";
         combo_app_l {
             timeout-ms = <20>;
-            key-positions = <1 2>; 21 22
+            key-positions = <1 2>;
             bindings = <&kp K_APP>;
         };
         combo_bslh_l {
