@@ -128,7 +128,7 @@
         tri_layer {
             bindings = <
             &bt BT_SEL 3    &kp F7      &kp F8          &kp F9          &kp F10    &bt BT_SEL 0     &key_repeat     &kp C_VOL_UP    &kp K_APP    &bt BT_CLR_ALL
-            &ht LGUI PSCRN  &ht LALT F4 &ht LCTRL F5    &ht LSHFT F6    &kp F11    &bt BT_SEL 1     &ht RSHFT C_PREV     &ht RCTRL C_VOL_DN     &ht RALT C_NEXT    &&ht RGUI PSCRN
+            &ht LGUI PSCRN  &ht LALT F4 &ht LCTRL F5    &ht LSHFT F6    &kp F11    &bt BT_SEL 1     &ht RSHFT C_PREV     &ht RCTRL C_VOL_DN     &ht RALT C_NEXT    &ht RGUI PSCRN
             &bt BT_CLR      &kp F1      &kp F2          &kp F3          &kp F12    &bt BT_SEL 2     &kp C_STOP     &kp C_MUTE     &kp PP     &bt BT_CLR
                                              &trans     &trans         &trans     &trans
             >;
