@@ -97,7 +97,7 @@
             &kp Z      &kp X      &lt 1 C      &lt 2 V      &lt 3 B          &lt 3 N      &lt 2 M      &lt 1 COMMA  &kp DOT    &kp FSLH
                                             &lt 1 SPACE   &lt 2 ENTER     &lt 2 ESCAPE  &lt 1 BSPC
             >;
-        };]
+        };
 
         lower_layer {
             bindings = <
