@@ -88,14 +88,6 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
         default_layer {
@@ -107,7 +99,7 @@
             >;
         };
 
-        right_layer {
+        lower_layer {
             bindings = <
             &kp FSLH    &kp N7     &kp N8     &kp N9     &kp PLUS         &caps_word   &kp PG_UP  &kp UARW  &kp PG_DN    &kp INS
             &ht LGUI KP_MULTIPLY &ht LALT N4 &ht LCTRL N5 &ht LSHFT N6 &kp MINUS &kp HOME &ht RSHFT LARW &ht RCTRL DARW   &ht RALT RARW   &ht RGUI END
@@ -116,7 +108,7 @@
             >;
         };
 
-        left_layer {
+        raise_layer {
             bindings = <
             &kp KP_DIVIDE      &kp AMPS   &kp ASTRK   &kp LPAR   &kp DQT         &kp EQUAL  &kp SQT   &kp GRAVE   &kp BSLH   &kp PIPE
             &kp KP_MULTIPLY   &kp DLLR     &kp PRCNT   &kp CARET   &kp SQT      &kp MINUS  &kp LPAR  &kp LBKT  &kp LBRC   &kp LT
@@ -125,7 +117,7 @@
             >;
         };
 
-        tri_layer {
+        adjust_layer {
             bindings = <
             &bt BT_SEL 3    &kp F7      &kp F8          &kp F9          &kp F10    &bt BT_SEL 0     &key_repeat     &kp C_VOL_UP    &kp K_APP    &bt BT_CLR_ALL
             &ht LGUI PSCRN  &ht LALT F4 &ht LCTRL F5    &ht LSHFT F6    &kp F11    &bt BT_SEL 1     &ht RSHFT C_PREV     &ht RCTRL C_VOL_DN     &ht RALT C_NEXT    &ht RGUI PSCRN
