@@ -109,7 +109,7 @@
 
         right_layer {
             bindings = <
-            &kp FSLH    &kp N7     &kp N8     &kp N9     &kp PLUS         &kp CAPS   &kp PG_UP  &kp UARW  &kp PG_DN    &kp INS
+            &kp FSLH    &kp N7     &kp N8     &kp N9     &kp PLUS         &caps_word   &kp PG_UP  &kp UARW  &kp PG_DN    &kp INS
             &ht LGUI KP_MULTIPLY &ht LALT N4 &ht LCTRL N5 &ht LSHFT N6 &kp MINUS &kp HOME &ht RSHFT LARW &ht RCTRL DARW   &ht RALT RARW   &ht RGUI END
             &kp N0  &kp N1     &kp N2     &kp N3     &kp EQUAL         &kp CAPS     &kp SQT     &kp K_APP &kp PSCRN     &kp DEL
                                              &trans     &kp TAB        &kp TAB     &trans
@@ -127,7 +127,7 @@
 
         tri_layer {
             bindings = <
-            &bt BT_SEL 3    &kp F7      &kp F8          &kp F9          &kp F10    &bt BT_SEL 0     &kp CAPS     &kp C_VOL_UP    &kp K_APP    &bt BT_CLR_ALL
+            &bt BT_SEL 3    &kp F7      &kp F8          &kp F9          &kp F10    &bt BT_SEL 0     &key_repeat     &kp C_VOL_UP    &kp K_APP    &bt BT_CLR_ALL
             &ht LGUI PSCRN  &ht LALT F4 &ht LCTRL F5    &ht LSHFT F6    &kp F11    &bt BT_SEL 1     &ht RSHFT C_PREV     &ht RCTRL C_VOL_DN     &ht RALT C_NEXT    &ht RGUI PSCRN
             &bt BT_CLR      &kp F1      &kp F2          &kp F3          &kp F12    &bt BT_SEL 2     &kp C_STOP     &kp C_MUTE     &kp C_PP     &bt BT_CLR
                                              &trans     &trans         &trans     &trans
