@@ -85,45 +85,46 @@
             bindings = <&kp GRAVE>;
         };
 
+        combo_sticky_gui_l {
+            timeout-ms = <20>;
+            key-positions = <11 22>;
+            bindings = <&sk LGUI>;
+        };
         combo_sticky_alt_l {
             timeout-ms = <20>;
-            key-positions = <11 21>;
+            key-positions = <12 21>;
             bindings = <&sk LALT>;
         };
         combo_sticky_ctrl_l {
             timeout-ms = <20>;
-            key-positions = <12 22>;
+            key-positions = <12 23>;
             bindings = <&sk LCTRL>;
         };
         combo_sticky_shift_l {
             timeout-ms = <20>;
-            key-positions = <13 23>;
+            key-positions = <13 22>;
             bindings = <&sk LSHIFT>;
         };
-        combo_sticky_gui_l {
-            timeout-ms = <20>;
-            key-positions = <14 24>;
-            bindings = <&sk LGUI>;
-        };
-        combo_sticky_gui_r {
-            timeout-ms = <20>;
-            key-positions = <15 25>;
-            bindings = <&sk RGUI>;
-        };
+
         combo_sticky_shift_r {
             timeout-ms = <20>;
-            key-positions = <16 26>;
+            key-positions = <16 27>;
             bindings = <&sk RSHIFT>;
         };
         combo_sticky_ctrl_r {
             timeout-ms = <20>;
-            key-positions = <17 27>;
+            key-positions = <17 26>;
             bindings = <&sk RCTRL>;
         };
         combo_sticky_alt_r {
             timeout-ms = <20>;
-            key-positions = <18 28>;
+            key-positions = <17 28>;
             bindings = <&sk RALT>;
+        };
+        combo_sticky_gui_r {
+            timeout-ms = <20>;
+            key-positions = <18 27>;
+            bindings = <&sk RGUI>;
         };
 
         combo_sticky_adjust_l {
