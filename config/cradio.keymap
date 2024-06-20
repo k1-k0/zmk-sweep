@@ -84,6 +84,58 @@
             key-positions = <27 28>;
             bindings = <&kp GRAVE>;
         };
+
+        combo_sticky_alt_l {
+            timeout-ms = <20>;
+            key-positions = <11 21>;
+            bindings = <&sk LALT>;
+        };
+        combo_sticky_ctrl_l {
+            timeout-ms = <20>;
+            key-positions = <12 22>;
+            bindings = <&sk LCTRL>;
+        };
+        combo_sticky_shift_l {
+            timeout-ms = <20>;
+            key-positions = <13 23>;
+            bindings = <&sk LSHIFT>;
+        };
+        combo_sticky_gui_l {
+            timeout-ms = <20>;
+            key-positions = <14 24>;
+            bindings = <&sk LGUI>;
+        };
+        combo_sticky_gui_r {
+            timeout-ms = <20>;
+            key-positions = <15 25>;
+            bindings = <&sk RGUI>;
+        };
+        combo_sticky_shift_r {
+            timeout-ms = <20>;
+            key-positions = <16 26>;
+            bindings = <&sk RSHIFT>;
+        };
+        combo_sticky_ctrl_r {
+            timeout-ms = <20>;
+            key-positions = <17 27>;
+            bindings = <&sk RCTRL>;
+        };
+        combo_sticky_alt_r {
+            timeout-ms = <20>;
+            key-positions = <18 28>;
+            bindings = <&sk RALT>;
+        };
+
+        combo_sticky_adjust_l {
+            timeout-ms = <20>;
+            key-positions = <21 23>;
+            bindings = <&sl 3>;
+        };
+        combo_sticky_adjust_r {
+            timeout-ms = <20>;
+            key-positions = <26 28>;
+            bindings = <&sl 3>;
+        };
     };
 
     keymap {
