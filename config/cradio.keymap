@@ -147,6 +147,16 @@
             key-positions = <17 26>;
             bindings = <&tog 1>;
         };
+        combo_toggle_game_l {
+            timeout-ms = <20>;
+            key-positions = <20 24>;
+            bindings = <&tog 5>;
+        };
+        combo_toggle_game_r {
+            timeout-ms = <20>;
+            key-positions = <25 29>;
+            bindings = <&tog 5>;
+        };
     };
 
     keymap {
@@ -193,6 +203,15 @@
             &trans  &bt BT_CLR  &trans  &trans  &bt BT_SEL 2  &bt BT_SEL 2  &trans  &trans  &bt BT_CLR  &trans
             &bt BT_CLR_ALL  &trans  &trans  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &bt BT_CLR_ALL
                                     &trans  &trans  &trans  &trans
+            >;
+        };
+
+        game_layer {
+            bindings = <
+            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
+            &kp A  &kp S  &kp D     &kp F     &kp G          &kp H   &kp J    &kp K     &kp L  &kp SEMI
+            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
+                                            &kp SPACE   &kp ENTER     &kp ESCAPE  &kp BSPC
             >;
         };
     };
