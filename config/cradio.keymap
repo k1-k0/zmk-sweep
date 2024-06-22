@@ -136,6 +136,17 @@
             key-positions = <26 28>;
             bindings = <&sl 3>;
         };
+
+        combo_toggle_lower_l {
+            timeout-ms = <20>;
+            key-positions = <12 23>;
+            bindings = <&tog 1>;
+        };
+        combo_toggle_lower_r {
+            timeout-ms = <20>;
+            key-positions = <17 26>;
+            bindings = <&tog 1>;
+        };
     };
 
     keymap {
